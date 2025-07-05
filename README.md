@@ -19,9 +19,7 @@
 
 ## 📦 Requirements
 👉 Python 3.6+  
-👉 Required package: `argon2-cffi`  
-
-pip install argon2-cffi
+👉 Required package: `argon2-cffi`  'pip install argon2-cffi'
 
 ---
 
