@@ -19,26 +19,26 @@
 
 ## 📦 Requirements
 👉 Python 3.6+  
-👉 Required package: `argon2-cffi`  'pip install argon2-cffi'
+👉 Required package: `argon2-cffi` OR `pip install argon2-cffi`
 
 ---
 
 ## ⚡ Usage
 
 ### Single Mode
-python3 password_tool.py -m YOUR_MASTER -a ACCOUNT_NAME
+python3 encpass.py -m YOUR_MASTER -a ACCOUNT_NAME
 
 ➡ Example output file: `passwords/20250705_235959.txt`
 
 ### Bulk Mode
-python3 password_tool.py -f input_list.txt
+python3 encpass.py -f input_list.txt
 
 
 ➡ Example output file: `passwords/input_list_output.txt`
 
 ### Custom output file
-python3 password_tool.py -m YOUR_MASTER -a ACCOUNT_NAME -o mypass.txt
-python3 password_tool.py -f input_list.txt -o bulk_pass.txt
+python3 encpass.py -m YOUR_MASTER -a ACCOUNT_NAME -o mypass.txt
+python3 encpass.py -f input_list.txt -o bulk_pass.txt
 
 
 ---
